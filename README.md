@@ -1,4 +1,4 @@
-# FTI
+# CTI
 
 > Free CTI, so it can't be bad.
 
