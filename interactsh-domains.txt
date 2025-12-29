@@ -121,7 +121,7 @@ hackme.dev
 hatamotosec.com
 hello-response.com
 hgfr.org
-https://googlet1.com
+googlet1.com
 i.aj.ax
 i.apolo2.xyz
 i.arw9234.net
