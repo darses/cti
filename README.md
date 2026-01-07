@@ -4,7 +4,10 @@
 
 ## Interact.sh domains (interactsh-domains.txt)
 
-List of Out-of-Band / OAST interact.sh domains, found in SMTP services via Shodan query using `product:"Interactsh SMTP Server"`.
+Last update: 2026-01-07
+
+List of Out-of-Band / OAST interact.sh domains, found in SMTP services via Shodan query using `product:"Interactsh SMTP Server" port:25` and extracted with `jq -r '.data' | grep 220 | cut -d ' ' -f 2`. Addtionally Interact.sh domains without SMTP were found and addedd with the query `http.html:"<h1> Interactsh Server </h1>"` and extracted with `jq -r .data | grep Server | cut -d ' ' -f 2`.
+
 
 ## Burp Collaborator Server domains (burpsuite-domains.txt)
 
